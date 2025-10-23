@@ -67,9 +67,9 @@ params:
     enabled: true                     # 启用个人资料模式（注意：拼写有误，应为true）
     title: TANG                  # 个人资料标题
     subtitle: "欢迎来到Tang的个人记录博客"        # 个人资料副标题
-    imageUrl: "tx.png"                  # 个人资料图片
-    imageWidth: 250                    # 图片宽度
-    imageHeight: 250                  # 图片高度
+    imageUrl: "tx-min.png"                  # 个人资料图片
+    imageWidth:  180                   # 图片宽度
+    imageHeight: 248.4                  # 图片高度
     imageTitle: 张伟                # 图片标题
     buttons:                            # 按钮配置
       - name: 文章                     # 文章按钮
