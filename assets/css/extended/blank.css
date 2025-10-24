@@ -14,3 +14,30 @@ body::before {
 :root{
     --primary: rgb(230, 229, 241)
 }
+.profile img {
+  border-radius: 0;
+}
+
+/* 毛玻璃元素（卡片） */
+    /* .glass-card,body ,main{ */
+      /* 1. 半透明背景（核心） */
+      /* background: rgba(255, 255, 255, 0.2);  */
+      /* 白色半透明，可替换为其他颜色 */
+      
+      /* 2. 模糊背后内容（核心） */
+      /* backdrop-filter: blur(10px);  */
+      /* 模糊半径，8-16px 效果较自然 */
+      
+      /* 3. 增强视觉效果（可选但推荐） */
+      /* border: 1px solid rgba(255, 255, 255, 0.3);  */
+      /* 细边框增强玻璃质感 */
+      /* border-radius: 12px; 圆角 */
+      /* box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);  */
+      /* 阴影增加层次感 */
+      
+      /* 4. 尺寸和内容样式 */
+      /* width: 300px;
+      padding: 24px; */
+      /* color: #fff;  */
+      /* 文字颜色与背景对比 */
+    /* } */
