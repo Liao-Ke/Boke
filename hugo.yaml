@@ -22,12 +22,12 @@ params:
   title: ExampleSite                     # 网站标题（可覆盖顶层配置）
   description: "ExampleSite description" # 网站描述
   keywords: [Blog, Portfolio, PaperMod]  # 网站关键词
-  author: Me                            # 作者名称
+  author: 小唐                            # 作者名称
   # author: ["Me", "You"]              # 多作者配置示例（当前注释掉）
   images: ["<link or path of image for opengraph, twitter-cards>"] # 社交媒体分享图片
   DateFormat: "2006年1月2日 15:04"         # 日期格式
-  defaultTheme: auto                    # 默认主题模式（自动、深色或浅色）
-  disableThemeToggle: false             # 不禁用主题切换功能
+  defaultTheme: "dark"                    # 默认主题模式（自动、深色或浅色）
+  disableThemeToggle: true             # 不禁用主题切换功能
 
   # 内容显示选项
   ShowReadingTime: true                 # 显示阅读时间
@@ -108,8 +108,8 @@ params:
 
   # 编辑文章配置
   editPost:
-    URL: "https://github.com/<path_to_repo>/content" # 编辑文章的基础URL
-    Text: "Suggest Changes"             # 编辑按钮文本
+    URL: "https://github.com/dongfangshuye0/edit/master/content" # 编辑文章的基础URL
+    Text: "编辑此页"             # 编辑按钮文本
     appendFilePath: true                # 在编辑链接中附加文件路径
 
   # 搜索功能配置
