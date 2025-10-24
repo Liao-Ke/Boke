@@ -1,4 +1,4 @@
-body::before {
+/* body::before {
   content: "";
   position: absolute;
   top: 0;
@@ -10,7 +10,7 @@ body::before {
   background-image: url("https://lsk.icu/bimg.php");
   filter: brightness(0.6);
   z-index: -1; /* 确保背景在内容后面 */
-}
+/* } */
 :root{
     --primary: rgb(230, 229, 241)
 }
@@ -18,7 +18,7 @@ body::before {
   border-radius: 0;
 }
 
-/* 毛玻璃元素（卡片） */
+/* 毛玻璃元素（卡片） 
     /* .glass-card,body ,main{ */
       /* 1. 半透明背景（核心） */
       /* background: rgba(255, 255, 255, 0.2);  */
@@ -40,4 +40,27 @@ body::before {
       padding: 24px; */
       /* color: #fff;  */
       /* 文字颜色与背景对比 */
-    /* } */
+    /* }  */
+
+    /* 移除原有图片背景（如果需要完全替换） */
+body::before {
+  background-image: none; /* 取消原图片背景 */
+}
+
+/* 视频背景样式 */
+.bg-video {
+  position: fixed; /* 固定定位，覆盖全屏 */
+  top: 0;
+  left: 0;
+  width: 100vw; /* 视窗宽度 */
+  height: 100vh; /* 视窗高度 */
+  object-fit: cover; /* 保持比例填充屏幕 */
+  z-index: -1; /* 置于内容下方 */
+  filter: brightness(0.6); /* 降低亮度，避免影响文字可读性 */
+}
+
+/* 确保内容区域在视频上方（如果有需要） */
+body > * {
+  position: relative; /* 让内容相对于视频定位 */
+  z-index: 1; /* 内容层级高于视频 */
+}
