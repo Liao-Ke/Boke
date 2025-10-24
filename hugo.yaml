@@ -108,11 +108,11 @@ params:
 
   # 编辑文章配置
   editPost:
-    URL: "https://github.com/dongfangshuye0/edit/master/content" # 编辑文章的基础URL
+    URL: "https://github.com/dongfangshuye0/Boke/edit/master/content" # 编辑文章的基础URL
     Text: "编辑此页"             # 编辑按钮文本
     appendFilePath: true                # 在编辑链接中附加文件路径
 
-  # 搜索功能配置
+  # 搜索功能配置Boke/
   # 参考: https://fusejs.io/api/options.html
   fuseOpts:
     isCaseSensitive: false              # 搜索不区分大小写
