@@ -64,3 +64,15 @@ body > * {
   position: relative; /* 让内容相对于视频定位 */
   z-index: 1; /* 内容层级高于视频 */
 }
+
+.dark {
+    --theme: rgb(29, 30, 32);
+    --entry: rgb(47 44 44 / 30%);
+    --primary: rgb(218, 218, 219);
+    --secondary: rgb(155, 156, 157);
+    --tertiary: rgb(47 44 44 / 30%);
+    --content: rgb(196, 196, 197);
+    --code-block-bg: rgb(46, 46, 51);
+    --code-bg: rgb(47 44 44 / 30%);
+    --border: rgb(51, 51, 51);
+}
