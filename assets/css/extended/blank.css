@@ -76,3 +76,9 @@ body > * {
     --code-bg: rgb(47 44 44 / 30%);
     --border: rgb(51, 51, 51);
 }
+
+#lyricBox{
+  font-size: 12px;
+  text-align: center;
+  color: var(--secondary);
+}
