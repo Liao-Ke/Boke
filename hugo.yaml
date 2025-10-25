@@ -45,7 +45,8 @@ params:
   hideSummary: false                    # 不隐藏摘要
   showtoc: false                        # 不显示目录
   tocopen: false         
-  lrc: true               # 默认不展开目录
+  lrc: true               
+  # 默认不展开目录
 
   # 资源配置
   assets:
